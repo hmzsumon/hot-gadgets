@@ -58,8 +58,16 @@ h1, h2, h3, h5, h6{
     color: #fff;
     padding: 10px 20px;
     border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 1px solid black;
+    transition: .4s;
 }
-
+.buy-now-btn:hover{
+    background: #fff;
+    
+    color: black;
+}
 .card{
     border: none;
     border-radius: 10px;
