@@ -1,0 +1,162 @@
+*{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #F8F9FA;
+}
+h1, h2, h3, h5, h6{
+    font-weight: 700;
+}
+
+.container{
+    margin-bottom: 80px;
+    
+}
+.carousel-item{
+    padding: 10px;
+}
+.slide-content{
+    padding-right: 150px;
+}
+
+.slide-content::before{
+
+        content: 'best products';
+        display: block;
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -108px;
+        top: 56px;
+        color: #EFECEC;
+        font-size: 38px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+}
+.carousel-indicators li {
+    position: relative;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 7px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-radius: 5px;
+    background-color: #9e9b9b;
+  }
+
+.carousel-indicators .active{
+    background-color: #FFC71D;
+    width:25px;
+}
+.buy-now-btn{
+    border:none;
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px lightgray;
+}
+.see-all{
+    color: #FFC71D;
+}
+.see-all:hover{
+    text-decoration: none;
+}
+
+#categories h2::after{
+    content: '';
+    display: block;
+    position: relative;
+    font-size: 38px;
+    text-transform: uppercase;
+    height: 7px;
+    width: 130px;
+    background-image: linear-gradient(to right,  #FFC71D 0%, #AE8509 ) ;
+    margin: 0 auto;
+    top: 10px;
+    border-radius: 10px;
+
+}
+
+.contact-bg{
+    background-color: #007bff;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.btn-twitter {
+    color: #fff;
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+    font-size: 11px;
+    padding: 20px 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.footer-social a{
+    height: 64px;
+    width: 64px;
+    font-size: 24px;
+}
+.fa{
+   
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.sub-btn{
+    font-size: 13px;
+    font-weight: 800;
+    padding: 8px 16px;
+   line-height: 24px;
+    border-radius: 8px;
+}
+.contact-text {
+    font-weight: 600;
+    color: rgba(255,255,255,.5);
+}
+.form-control{
+    padding: 8px 16px;
+  
+    line-height: 1.5;
+    border-radius: 8px;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #30497c;
+    border-color: #2d4373;
+}
+.btn-github {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+.btn-github:hover {
+    color: #fff;
+    background-color: #202020;
+    border-color: #1a1a1a;
+}
+.btn-twitter:hover {
+    color: #fff;
+    background-color: #0d8ddc;
+    border-color: #0c85d0;
+}
