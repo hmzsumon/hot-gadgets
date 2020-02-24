@@ -1,7 +1,9 @@
 *{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #F8F9FA;
 }
@@ -90,6 +92,7 @@ h1, h2, h3, h5, h6{
     background-size: cover;
     color: #fff;
     padding: 80px 0;
+    border-radius: 10px;
 }
 
 .btn-twitter {
@@ -130,7 +133,6 @@ h1, h2, h3, h5, h6{
 }
 .form-control{
     padding: 8px 16px;
-  
     line-height: 1.5;
     border-radius: 8px;
 }
@@ -160,3 +162,10 @@ h1, h2, h3, h5, h6{
     background-color: #0d8ddc;
     border-color: #0c85d0;
 }
+
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
