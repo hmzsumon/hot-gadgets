@@ -94,6 +94,16 @@ h1, h2, h3, h5, h6{
     border-radius: 10px;
 
 }
+.bag, .perfume, .shoe, .pale{
+    transition: .4s;
+}
+.bag:hover, .perfume:hover, .shoe:hover, .pale:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
 
 .contact-bg{
     background-color: #007bff;
@@ -127,6 +137,12 @@ h1, h2, h3, h5, h6{
     text-rendering: auto;
     line-height: 1;
 }
+
+.footer-social a:hover{
+    transform: rotate(360deg);
+    transition: all .5s ease;
+}
+
 
 .sub-btn{
     font-size: 13px;
@@ -177,3 +193,9 @@ h1, h2, h3, h5, h6{
     right: 30px;
     cursor: pointer;
   }
+  .hot{
+      color: #FFC71D;
+      cursor: pointer;
+
+  }
+ 
